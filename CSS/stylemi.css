@@ -1,0 +1,191 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --Primario: #ffc107;
+    --Secundario: #c03fd1;
+}
+
+html{
+font-size: 62.5%;    
+box-sizing: border-box;
+background-image: url(../IMG/background.png);
+
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 20px;
+    
+    }
+
+
+.navegacionredes {
+    display: flex;
+    flex-direction: column;
+}
+    
+@media (min-width: 480px ) {
+    .navegacionredes {
+    flex-direction: row;
+    justify-content: right;
+        }
+        
+}
+
+.navegacionredes a {
+    
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    
+    }  
+
+.bannerredes {
+    background-color: #c03fd1;
+}
+
+
+/* @media (max-width:480px) {
+.redes {
+   
+    width: 50px;
+    height: 50px;
+    margin-left: 50px ;
+    margin-bottom:70px ;
+    
+}
+}
+
+
+@media (max-width:480px){
+    .iconoredes {
+        margin: 0;
+        width: 50px;
+        height: 50px;
+               
+  }
+} */
+
+.iconoredes {
+height: 50px;
+margin: 0;
+
+}
+
+.titulosobre {
+    color: #c03fd1;
+}
+
+.fotosobremi {
+    height: 330px;
+}
+    
+
+
+@media (min-width: 768px) {
+    .informacion {
+        display: grid;
+        grid-template-columns: 33.3% 43.3%;
+        column-gap: 10rem;
+    }
+}
+
+.informacion {
+    background-color: #ffffff;
+}
+
+.informaciondemi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+@media (min-width: 768px) {
+    .skills {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3% ;
+        column-gap: 1rem;
+    }
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.habilidades p {
+    line-height: 1.5;
+    text-align: center;
+}
+
+.skill1 {
+    width: 160px;
+    
+}
+
+.skill2 {
+    width: 160px;
+}
+
+.skill3 {
+    width: 160px;
+}
+
+.tituloproyectos {
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: var(--Secundario);
+}
+
+@media (min-width: 768px) {
+    .proyectos{
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3% ;
+        column-gap: 1rem;
+        background-color: #ffffff;
+        
+    }
+}
+
+.mitrabajo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+.mitrabajo p {
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+
+.iconoweb {
+    width: 350px;
+}
+
+.iconobrand {
+    width: 350px;
+}
+
+.iconografico {
+    width: 350px;
+}
